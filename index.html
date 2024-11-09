@@ -12,8 +12,7 @@
 
  <form class="form" action="http://localhost:8080/datos-persona"  method="get"   target="_blank">
 
-
- <fieldset class="legend">
+<fieldset class="legend">
   <legend class="h2">🙋Datos Personales👀</legend>
 
   <div>
@@ -33,12 +32,12 @@
     
   <div>
     <label class="lbl"  for="lbl-nacionalidad">Nacionalidad: *</label>
-    <selectclass="div2" name="Nacionalidad" id="lbl-nacionalidad" required>
+    <select class="div2" name="Nacionalidad" id="lbl-nacionalidad" required>
           <option value="">-Seleccionar-</option>
           <option value="">Argentina</option>
           <option value="">Brasil</option>
           <option value="">Uruguay</option>
-    </selectclass=>
+    </select>
   </div>
 
   <div>
@@ -129,6 +128,13 @@
 
   </form>
 
+  <form action="https://postman-echo.com/post" method="post">
+
+    <input type="text" name="nombre">
+
+    <button>Enviar</button>
+
+  </form>
 
   <script type="module" src="/main.js"></script>
   
